@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* 
+* @Author: Marte
+* @Date:   2016-12-06 15:54:02
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-11 17:28:20
+*/
+html,body,h1,h2,ul,li,p,a,img,table,tr,td{height: auto; margin: 0;padding: 0; color: #3f3c3c;list-style: none;}
+a{text-decoration: none; font-size: 12px; }
+.top{height:117px; width: 100%; background:url(../images/head_bg.png) repeat-x top left,url(../images/nav_bg.png) repeat-x bottom left; overflow: hidden;}
+.heart{width: 1008px; margin: 0 auto;overflow: hidden; padding-left: 30px; padding-right: 15px; box-sizing: border-box;}
+.heart ul{ float: right;}
+.heart ul li{float:left; margin-left: 10px; display:inline; font-size: 10px;}
+.heart a{ font:normal 12px/80px "宋体";  color: #3f3c3c!important;}
+.heart a:hover{text-decoration: underline;}
+h1 a{text-indent: -9999px; float: left; height:80px; width: 296px; background:url(../images/logo.png) no-repeat top left/100% 100%;}
+.headNav{height: 37px; margin: 0 auto; width: 1008px;}
+.headNav li{width: 14.2857%; height: 37px; float: left; background: url(../images/nav_line.png) no-repeat top right; }
+.headNav .first{ background: url(../images/nav_line.png) no-repeat top left, url(../images/nav_line.png) no-repeat top right; padding-left: 2px; box-sizing: border-box;}
+.headNav .first a{width: 98.59154%;}
+.headNav li a{font:bold 14px/37px "微软雅黑"; color:#fff !important; display: inline-block; width: 98.61111%;text-align: center;}
+.headNav li a:hover{background: url(../images/nav_hover.png);}
+.warp{width: 1005px; margin: 0 auto; height:auto; overflow: hidden; }
+.warp p{height: 36px; color:#777; font: normal 12px/36px "宋体"; text-align: right;}
+.warp p img{vertical-align: middle;}
+.warp p a{color:#777;}
+.warp .main{border:#dedede 1px solid; box-sizing: border-box; overflow: hidden; background: url(../images/list_left_bg.png) repeat-y 0px 0px/22.84% 100% ;}
+.warp .main .l{width: 22.790%; float:left; text-align: center; padding:25px 0;}
+.warp .main .l #myList{margin-top: 20px;}
+.warp .main .l #myList>li{ border-bottom: #fff 1px solid;}
+.warp .main .l #myList>li>a{height: 30px; font:normal 12px/30px "宋体"; text-align: left; padding-left:29px; box-sizing: border-box; background: url(../images/hbj.png) no-repeat top right; cursor:pointer;color:#5a5a5a; display: block;}
+.warp .main .l #myList>li>a:hover{ background:url(../images/abj.png) no-repeat top right; font-weight: bold !important;color:#fff;}
+.lList{ background:url(../images/abj.png) no-repeat top right !important ; color:#fff !important; font-weight: bold !important;}
+.warp .main .r{float:right; width:77.210%;}
+.warp .main .r .art{margin:1.99%;}
+.myFoot{height: 139px;text-align: center; margin-top: 25px; padding: 25px 0; color:#727373; font:normal 12px/18px "宋体"; border-top:#009eb4 9px solid ; box-sizing: border-box;}
+@media (max-width:1008px){
+   .heart,.headNav,.warp{width: 100%;}
+   .warp p{padding-right: 10px;}
+}
+@media (max-width:625px ){
+    .heart ul{display: none;}
+}
+
+

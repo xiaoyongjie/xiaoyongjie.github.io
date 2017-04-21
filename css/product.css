@@ -1,0 +1,20 @@
+/* 
+* @Author: Marte
+* @Date:   2016-12-06 15:58:48
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-07 16:26:15
+*/
+.warp .main .r .art{ height: 534px;background: url(../images/bj3.png) repeat-y center bottom/100% 178px ; }
+.warp .main .l #myList ul{overflow:hidden; display: none; }
+.warp .main .l #myList ul li{height: 30px; text-align: left; padding-left: 29px; }
+.warp .main .l #myList ul li a{color:#009eb4; font:normal 12px/30px "宋体";}
+.warp .main .l #myList ul li:hover a{color:#ef612d;}
+
+
+
+
+
+
+
+
+

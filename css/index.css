@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* 
+* @Author: Marte
+* @Date:   2016-12-07 20:50:24
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-11 21:07:14
+*/
+
+.warp .banner{position: relative; height: 408px;}
+.warp .banner div{position: absolute; top:0px; left: 0px;display: none;}
+.warp .banner .myshow{display:block;}
+.warp .banner a{display:block;} 
+.warp .banner img{width: 100%; height: 408px;display:block;}
+.warp .banner ul{position: absolute; right: 20px; bottom: 14px;}
+.warp .banner li{width: 14px; height: 14px; background: #727373; border-radius: 14px; float: left; margin: 0px 2px;}
+.warp .banner .org{background:#eb8932;}
+.warp .index-main{ margin-top: 15px;}
+.warp .index-main a{color:#727373; line-height: 24px;}
+.warp .index-main a:hover{color:#f47c3c;}
+.warp .index-main h2{font:bold 14px/35px "宋体"; color: #666; background: #ececeb; padding:0 15px; }
+.warp .index-main h2 a{float: right; font-weight: normal;}
+.warp .index-main div{border: 1px solid #ddd; width: 496px; height: 194px; float: left;}
+.warp .index-main div table{width: 496px; padding:5px 10px;}
+.warp .index-main div tr td:nth-child(even){text-align: right; color: #aaa; font:normal 12px/22px "宋体";}
+.warp .index-main .r{float: right;}
+.warp .index-main .r td:nth-child(even){text-align: left; padding-left: 10px;}
+.warp>ul li{float: left; margin-top: 13px;}
+.warp>ul li:nth-child(even){margin:13px 7px 13px 8px;}
+.warp>ul li a{display: block;background:#ececeb;margin-top: 10px;}
+.warp>ul li a i{height: 162px; overflow: hidden; display: block;}
+.warp>ul li a img{display: block;}
+.warp>ul li p{background:url(../images/xj.png) no-repeat right center; margin: 0 10px; text-align: left;}
+.clear {clear: both; display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

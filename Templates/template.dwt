@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link  href="../css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div id="headWrap">
+	<div class="head">
+      <div class="logo"><a href="../index.html"><img src="../images/logo.png" width="296" height="80" /></a></div>
+        <span class="topNav">
+        	<a href="#">会员登录</a> | <a href="#">企业邮箱</a> | <a href="#">网站地图</a> | <a href="#">在线调查</a>
+        </span>
+    </div>
+</div>
+<div id="navWrap">
+  <ul class="nav">
+    <li class="checked"><a href="../index.html">首页</a></li>
+    <li><a href="#">关于大明</a></li>
+    <li><a href="../list.html">新闻资讯</a></li>
+    <li><a href="#">产品中心</a></li>
+    <li><a href="#">配镜常识</a></li>
+    <li><a href="#">验光预约</a></li>
+    <li><a href="#">门店分布</a></li>
+  </ul>
+</div>
+<!-- TemplateBeginEditable name="EditRegion3" -->
+<div id="content">
+	<div class="contL"></div>
+    <div class="contR"></div>
+</div>
+<!-- TemplateEndEditable -->
+<div id="footWrap">
+  <div class="foot">
+   	<p>
+        	北京大明眼镜股份有限公司　京ICP证040471号 京公网安备110102004821<br />
+			咨询电话：800-810-0841 联系电话：010-66139871 66139872　传真：66129601<br />
+			联系mail:daminginfo@damingyj.com.cn 咨询投诉mail:damingfk@damingyj.com.cn</p>
+  </div>
+</div>
+</body>
+</html>

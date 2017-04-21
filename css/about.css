@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (iqianduan@126.com)
+ * @date    2016-12-04 15:36:42
+ * @version $Id$
+ */
+.art p{height:auto; text-indent: 2em; text-align: left;     font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "宋体"; color:#666;}
+.warp .main .r .art p strong{color:#009cb1;}
+.warp .main .r .art p:nth-of-type(2) img{float: right;}
+.warp .main .r .art ul{float: right; width: 72px; height: 24px;}
+.warp .main .r .art ul li{float:left; background: #ef612d; color:#fff; font:normal 12px/12px "宋体"; padding: 3px; float: left; margin: 2px; cursor: pointer;}

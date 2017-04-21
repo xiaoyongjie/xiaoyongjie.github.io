@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/email.css" />
+        <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+        <script type="text/javascript">
+            $(function  () {
+                var i=0;
+                var myImg=$('.center li');
+                var timer;
+                var myShow=function  () {
+                    i++
+                    if (i>5) {i=0};
+                    $(myImg).eq(i).fadeIn(400).siblings('li').fadeOut('400');
+                }
+                clearInterval(timer);
+                timer=setInterval(myShow,4000);
+                $(myImg).hover(function() {
+                    clearInterval(timer);
+                }, function() {
+                    timer=setInterval(myShow, 4000);
+                });
+                $('.th li').mouseover(function(event) {
+                    var num=$(this).index();
+                    $(this).css('font-weight', 'bold').siblings('li').css('font-weight', 'normal');
+                    $(this).children('i').addClass('tab');
+                    $(this).siblings('li').children('i').removeClass('tab');
+                    $('.tr li').eq(num).css('display','block').siblings().css('display','none');
+                });
+                $('.tr a:last-child').hover(function() {
+                        $('.hide').css('display', 'block');
+                    }, function() {
+                        $('.hide').css('display', 'none');
+                });
+                $('#lt li').click(function() {
+                    var num2=$(this).index();
+                    if (num2==0) {
+                        $('input:nth-of-type(3),b').css('display', 'inline-block');
+                    } else{
+                        $('input:nth-of-type(3),b').css('display', 'none');
+                    };
+                    $(this).addClass('first').siblings('li').removeClass('first');
+                });
+            })
+        </script>
+    </head>
+    <body>
+        <div class="top">
+            <a href="">简体中文</a>
+            <a href="">繁体中文</a>
+            <a href="">English</a>
+            <a href="">日本語</a>
+            <a href="">한국어</a>
+        </div>
+        <div class="center">
+            <ul>
+                <li><a href=""><img src="images/mainleft_1_1.jpg" alt="" /></a></li>
+                <li><a href=""><img src="images/mainleft_1_2.jpg" alt="" /></a></li>
+                <li><a href=""><img src="images/mainleft_1_3.jpg" alt="" /></a></li>
+                <li><a href=""><img src="images/mainleft_1_4.jpg" alt="" /></a></li>
+                <li><a href=""><img src="images/mainleft_1_5.jpg" alt="" /></a></li>
+                <li><a href=""><img src="images/mainleft_1_6.jpg" alt="" /></a></li>
+            </ul>
+            <form action="" method="">
+                <h2>欢迎使用企业邮箱</h2>
+                <ul id="lt">
+                    <li class="first">旗舰版</li>
+                    <li>极速版</li>
+                </ul>
+                <input type="text" placeholder="用户名" name="text" required />
+                <span>@damingyj.com.cn</span>
+                <input type="password" placeholder="密码" name="password" required/><br/>
+                <button>登录</button>
+                <input type="checkbox" name="check" /><b>SSL全程保护</b>
+                <a href="">管理员登录</a>
+                <p>用其他帐号登录：</p>
+                <a href="">腾讯QQ</a>
+                <div class="table">
+                    <ul class="th">
+                        <li id="tab"> android客户端 <i class="tab"></i></li>
+                        <li> iPhone客户端 <i></i></li>
+                        <li> 35EQ即时通 <i></i></li>
+                        <div class="clear"></div>
+                    </ul>
+                    <ul class="tr">
+                        <li>
+                            <a href="">下载到电脑</a>
+                            <a href="">短信下载</a>
+                            <a href="">
+                                通过二维码
+                                <div class="hide">
+                                    <img src="images/RQ.png" alt=""  />
+                                    <p>可通过手机二维码扫描软件，扫描二维码即可立即下载。</p>
+                                    <i class="hider"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">通过Appstore免费下载</a>
+                            <a href="">
+                                通过二维码
+                                <div class="hide">
+                                    <img src="images/RQ.png" alt=""  />
+                                    <p>可通过手机二维码扫描软件，扫描二维码即可立即下载。</p>
+                                    <i class="hider"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li><a href="">下载电脑客户端</a></li>
+                    </ul>
+                </div>
+                <a href="">&gt;桌面快捷方式</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="">&gt;常见问题</a>&nbsp;&nbsp;&nbsp;&nbsp;   
+                <a href="">&gt;登录太慢? </a>
+            </form>
+            <div class="clear"></div>
+        </div>
+    </body>
+</html>
